@@ -1,5 +1,6 @@
 import React from 'react';
 import {Text, View, StyleSheet} from 'react-native';
+import {RNCamera} from 'react-native-camera';
 const styles = StyleSheet.create({
   centerAlign: {
     flex: 1,

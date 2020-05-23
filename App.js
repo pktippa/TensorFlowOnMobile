@@ -5,6 +5,7 @@ import {createStackNavigator} from '@react-navigation/stack';
 
 import Home from './Home';
 import RealTimePersonRemoval from './RealTimePersonRemoval';
+import RTPR from './RTPR';
 
 const Stack = createStackNavigator();
 const App = () => {
@@ -19,7 +20,8 @@ const App = () => {
           />
           <Stack.Screen
             name="RealTimePersonRemoval"
-            component={RealTimePersonRemoval}
+            // component={RealTimePersonRemoval}
+            component={RTPR}
             options={{title: 'Real Time Person Removal'}}
           />
         </Stack.Navigator>
