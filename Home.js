@@ -55,9 +55,9 @@ const styles = StyleSheet.create({
   },
 });
 const Home = ({navigation}) => {
-  const realTimePersonRemoval = () => {
+  const navigate = toPage => {
     // console.log('clicked real time person removal');
-    navigation.navigate('RealTimePersonRemoval');
+    navigation.navigate(toPage);
   };
   return (
     <SafeAreaView>
@@ -74,13 +74,31 @@ const Home = ({navigation}) => {
           )} */}
         <View style={styles.body}>
           <View style={styles.sectionContainer}>
-            <Text style={styles.sectionTitle} onPress={realTimePersonRemoval}>
+            <Text
+              style={styles.sectionTitle}
+              onPress={() => {
+                navigate('RealTimePersonRemoval');
+              }}>
               Real Time Person Removal
             </Text>
             <Text
               style={styles.sectionDescription}
-              onPress={realTimePersonRemoval}>
+              onPress={navigate('RealTimePersonRemoval')}>
               Real Time Person Removal
+            </Text>
+          </View>
+          <View style={styles.sectionContainer}>
+            <Text
+              style={styles.sectionTitle}
+              onPress={() => {
+                navigate('RealTimePersonRemoval');
+              }}>
+              Pose Animator
+            </Text>
+            <Text
+              style={styles.sectionDescription}
+              onPress={navigate('PoseAnimator')}>
+              Pose Animator
             </Text>
           </View>
           {/* <View style={styles.sectionContainer}>

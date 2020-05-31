@@ -1,5 +1,5 @@
 {
-  "name": "TensorFlowOnMobile",
+  "name": "tensorflow-on-mobile",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -21,7 +21,8 @@
     "react-native-safe-area-context": "^1.0.2",
     "react-native-screens": "^2.8.0",
     "react-native-unimodules": "^0.9.1",
-    "react-native-video": "^4.4.5"
+    "react-native-video": "^4.4.5",
+    "react-native-webview": "^10.2.3"
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",

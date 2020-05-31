@@ -16,3 +16,11 @@ uses [body-pix](https://cdn.jsdelivr.net/npm/@tensorflow-models/body-pix@2.0)
 - Opens up permission for camera access.
 - Upon accept permission, opens camera with space using 50% of camera.
 - Render the same camera view on the second split view of remaining 50%.
+
+## Pose Animator
+
+https://github.com/yemount/pose-animator/
+
+Using a react native webview to load below URL.
+
+https://pose-animator-demo.firebaseapp.com/camera.html
